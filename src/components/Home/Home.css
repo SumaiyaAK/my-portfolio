@@ -1,0 +1,54 @@
+/* .hero{
+    background-image: url(../../assets/img/Vector1.png);
+} */
+
+.background{
+    background-image: url(../../assets/img/Vector2.png);
+}
+
+
+.Portfolio{
+    background-image: url(../../assets/img/portfolioBG2.jpg);
+    
+}
+
+.wrapper{
+    display: inline-flex;
+}
+
+.wrapper .dynamic-text{
+    margin-left: 15px;
+
+}
+
+.dynamic-text h1{
+    position: relative;
+}
+
+.dynamic-text h1::after{
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+    }
+}
+
+.wrapper .static-Text{
+
+}
+
+
+
+
+/* .bg-img{
+    flex: 1;
+    position: relative;
+}
+
+.bg-img>*{
+   position: absolute;
+   z-index: 1;
+} */
+
