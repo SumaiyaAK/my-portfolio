@@ -5,7 +5,7 @@ import BG from '../../assets/img/BG.jpeg'
 import glasses from '../../assets/img/glasses.png'
 import Crown from '../../assets/img/crown.png'
 import Floatingdiv from '../Floatingdiv/Floatingdiv';
-import Resume from '../Home/Resume of Sumaiya Akhter.pdf'
+import Resume from '../Home/SUMAIYA AKHTER (Update Resume).pdf'
 
 const Home = () => {
     return (
